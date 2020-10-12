@@ -1,3 +1,4 @@
+
 n = int(input())
 positions = []
 for _ in range(n):
