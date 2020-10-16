@@ -34,7 +34,6 @@ print(max_prize)
 
 
 
-
 """ 2번: 1번 성공 후 참고한 코드 """
 def money():
     lst = sorted(list(map(int, input().split())))
