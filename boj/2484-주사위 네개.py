@@ -1,7 +1,7 @@
 """ 1번: 내가 작성한 코드 """
 n = int(input())
-
 max_prize = 0
+
 for _ in range(n):
     nums = [0 for _ in range(7)]
     for x in map(int, input().split()):
