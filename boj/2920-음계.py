@@ -1,4 +1,5 @@
 data = list(map(int, input().split(' ')))
+
 ascending = True
 descending = True
 
