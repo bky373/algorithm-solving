@@ -20,9 +20,9 @@ def solution(phone_book):
 
 """ 2번: 1번 성공 후 참고한 풀이 """
 def solution2(phone_book):
-    phone_book.sort(key=lambda x: len(x))
-    for x in range(len(phone_book)):
-        for j in range(x+1, len(phone_book)):
-            if phone_book[j][:len(phone_book[x])] == phone_book[x]:
+    phone_book.sort(key=lambda i: len(i))
+    for i in range(len(phone_book)):
+        for j in range(i+1, len(phone_book)):
+            if phone_book[j][:len(phone_book[i])] == phone_book[i]:
                 return False
     return True
