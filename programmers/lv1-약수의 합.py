@@ -11,7 +11,6 @@ def solution(n):
     return ans
 
 
-
 """ 2번: 1번 성공 후 참고한 풀이 """
-def solution2(num):
-    return 
+def solution2(n):
+    return n + sum([i for i in range(1, n // 2 + 1) if n % i == 0])
