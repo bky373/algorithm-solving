@@ -14,7 +14,7 @@ def solution(strings, n):
 
 """ 2번: 1번 성공 후 참고한 풀이(sorted 한 번 사용) """
 def solution2(strings, n):
-    return sorted([s for s in strings], key=lambda x: [x[n], x]])
+    return sorted([s for s in strings], key=lambda x: [x[n], x])
 
 
 
