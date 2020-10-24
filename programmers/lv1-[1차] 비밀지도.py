@@ -32,8 +32,3 @@ def solution2(n, arr1, arr2):
 
 """ 3번: 다른 사람의 풀이(zfill 활용) """
 solution = lambda n, arr1, arr2: ([''.join(map(lambda x: '#' if x=='1' else ' ', "{0:b}".format(row).zfill(n))) for row in (a|b for a, b in zip(arr1, arr2))])
-
-print("{0:d}".format(2))
-print("{0:b}".format(2.0))
-print("{0:o}".format(42))
-print("{0:x}".format(42))
