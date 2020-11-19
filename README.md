@@ -8,7 +8,7 @@
 
 ### 문제 풀이 저장소
 
-- [BOJ](https://www.acmicpc.net/) --- [[Python]](https://github.com/bky373/problem-solving/tree/master/by-python/py-boj) [[Kotlin]](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-boj/src)
+- [BOJ](https://www.acmicpc.net/) --- [[Python]](https://github.com/bky373/problem-solving/tree/master/by-python/py-boj) [[Kotlin]](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-boj/solutions)
 
 - [Programmers](https://programmers.co.kr/) --- [[Python]](https://github.com/bky373/problem-solving/tree/master/by-python/py-programmers) [[Kotlin]]()
 
