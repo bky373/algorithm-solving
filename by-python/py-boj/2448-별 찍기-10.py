@@ -20,7 +20,10 @@ def solve(y, x, n):
                 solve(y + (i * div), x + (j * div), div)
 
 
-solve(0, 0, n)
+def show_stars(arr):
+    for a in arr:
+        print(''.join([c for c in a]))
 
-for a in arr:
-    print(''.join([c for c in a]))
+
+solve(0, 0, n)
+show_stars(arr)
