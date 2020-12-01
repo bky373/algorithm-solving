@@ -12,7 +12,6 @@ def solve(data):
 
 
 if __name__ == '__main__':
-    print(sum([i for i in range(1, 500001)]))
     n = int(input())
     data = []
     for _ in range(n):
