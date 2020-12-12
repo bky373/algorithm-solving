@@ -21,3 +21,8 @@ def solution2(strings, n):
 """ 3번: 1번 성공 후 참고한 풀이(sorted 두 번 사용) """
 def solution3(strings, n):
     return sorted(sorted(strings), key=lambda x: x[n])
+
+
+""" 4번: 보다 쉬운 풀이(sorted 한 번 사용) """
+def solution4(strings, n):
+    return sorted(strings, key=lambda x: x[n] + x[:])
