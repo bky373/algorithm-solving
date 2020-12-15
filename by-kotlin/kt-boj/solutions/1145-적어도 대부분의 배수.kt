@@ -8,7 +8,7 @@ fun main() = with(Scanner(System.`in`)) {
 
     var result = 0
     val maximum = numbers[2] * numbers[3] * numbers[4]
-    
+
     loop@ for (k in numbers[0]..maximum + 1) {
         var count = 0
         for (i in numbers.indices) {
