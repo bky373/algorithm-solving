@@ -4,5 +4,4 @@ def solution(a, b, c):
 
 if __name__ == '__main__':
     a, b, c = map(int, input().split())
-    
     print('\n'.join([str(n) for n in solution(a, b, c)]))
