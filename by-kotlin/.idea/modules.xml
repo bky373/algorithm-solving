@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/by-kotlin.iml" filepath="$PROJECT_DIR$/.idea/by-kotlin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kt-boj/kt-boj.iml" filepath="$PROJECT_DIR$/kt-boj/kt-boj.iml" />
-    </modules>
-  </component>
-</project>
