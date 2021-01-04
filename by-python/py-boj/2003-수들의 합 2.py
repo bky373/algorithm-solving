@@ -37,7 +37,7 @@ def solution_with_two_pointer(arr):
     lo, hi = 0, 1
     result = arr[lo]
     while lo < n:
-        # 종료 조건
+        # 일치할 경우
         if result == m:
             cnt += 1
             result -= arr[lo]
