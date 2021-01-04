@@ -2,28 +2,28 @@
 
 ### 알고리즘 문제 풀이
 
-- :trophy: 한 주에 6문제 이상 풀기 도전!
+- :trophy: 한 주에 6문제 이상 풀기 도전! 
 
 
 
-### 문제 풀이 저장소
+## Calendar (2020. 09. 20 ~ )
 
-- [BOJ](https://www.acmicpc.net/) --- [[Python]](https://github.com/bky373/problem-solving/tree/master/by-python/py-boj) [[Kotlin]](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-boj/solutions)
+### 21년 01월
 
-- [Programmers](https://programmers.co.kr/) --- [[Python]](https://github.com/bky373/problem-solving/tree/master/by-python/py-programmers) [[Kotlin]](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-programmers/solutions)
+|     01월      | 유형 | 난이도 |                       문제                        |                             코드                             |
+| :-----------: | :--: | :----: | :-----------------------------------------------: | :----------------------------------------------------------: |
+| 1주차 (01-08) | 수학 | 실버 1 | [1629-곱셈](https://www.acmicpc.net/problem/1629) | [Py](https://github.com/bky373/problem-solving/blob/master/by-python/py-boj/1629-%EA%B3%B1%EC%85%88.py)  [Kt](https://github.com/bky373/problem-solving/blob/master/by-kotlin/kt-boj/solutions/1629-%EA%B3%B1%EC%85%88.kt) |
+|               |      |        |                                                   |                                                              |
+|               |      |        |                                                   |                                                              |
+|               |      |        |                                                   |                                                              |
+|               |      |        |                                                   |                                                              |
 
 
-
-## Calendar 
-
-* :date: **한 주 단위** : **시작일(일)** ~ **종료일(토)**
-
-- **월초(1일)** 는 항상 새로운 **시작일**
-- **월말(28~31일)** 은 항상 마지막 **종료일**
 
 ---
 
-### 9월
+
+### 20년 9월
 
   - 알고리즘 문제 풀이 감을 익힘
 
@@ -32,7 +32,7 @@
 | 4주차 | 09/20  | 09/26  |     2     |    -    |
 | 5주차 | 09/27  | 09/30  |     6     | SUCCESS |
 
-### 10월
+### 20년 10월
 
   - 프로그래머스 level 1 수준의 문제를 풀며 계속 연습함
   - level 2 이상의 문제는 아직 어렵다..
@@ -45,7 +45,7 @@
 | 4주차 | 10/18  | 10/24  |    39     | SUCCESS |
 | 5주차 | 10/25  | 10/31  |     6     | SUCCESS |
 
-### 11월
+### 20년 11월
 
   - 지금부터 점점 더 높은 난이도에 도전해야한다..!
   - 4주차는 시험 준비로 쉬운 것 위주로 풀었다ㅠㅠ
@@ -58,7 +58,7 @@
 | 4주차 | 11/22  | 11/28  |    10     | SUCCESS |
 | 5주차 | 11/29  | 11/30  |     3     |    -    |
 
-### 12월
+### 20년 12월
 
 | 12월  | 시작일 | 종료일 | 풀이 개수 |  결과   |
 | :---: | :----: | :----: | :-------: | :-----: |
@@ -67,3 +67,12 @@
 | 3주차 | 12/13  | 12/19  |     8     | SUCCESS |
 | 4주차 | 12/20  | 12/26  |     2     |    -    |
 | 5주차 | 12/27  | 12/31  |     3     |    -    |
+
+
+
+### 문제 풀이 저장소
+
+- [BOJ](https://www.acmicpc.net/) --- [[Python]](https://github.com/bky373/problem-solving/tree/master/by-python/py-boj) [[Kotlin]](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-boj/solutions)
+
+- [Programmers](https://programmers.co.kr/) --- [[Python]](https://github.com/bky373/problem-solving/tree/master/by-python/py-programmers) [[Kotlin]](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-programmers/solutions)
+
