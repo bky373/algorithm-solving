@@ -29,13 +29,10 @@ def solution(arr):
 # 시간 복잡도 O(N)
 # 참고 : https://suri78.tistory.com/164
 def solution_with_two_pointer(arr):
-    S = [0] * (n + 1)
-    for i in range(1, n + 1):
-        S[i] = S[i - 1] + arr[i - 1]
-
     cnt = 0
     lo, hi = 0, 1
     result = arr[lo]
+
     while lo < n:
         # 일치할 경우
         if result == m:
@@ -43,8 +40,16 @@ def solution_with_two_pointer(arr):
             result -= arr[lo]
             lo += 1
 
+        # 종료 조건
+        # 1) hi == n &&
+        # 2-1) result > m 이더라도, lo를 높여볼 여지가 있기 때문에 종료 x
+        # 2-2) result < m 이면, lo를 낮춰야 하는데
+        # 그런 경우는 이미 해봤기 때문에 종료해도 된다.
         if hi == n and result < m:
             break
+
+        # result < m 이면, lo는 그대로 hi를 높인다
+        # result > m 이면, hi는 그대로 lo를 높인다
         elif result < m:
             result += arr[hi]
             hi += 1
@@ -57,5 +62,5 @@ def solution_with_two_pointer(arr):
 if __name__ == '__main__':
     n, m = map(int, input().split())
     arr = list(map(int, input().split()))
-    print(solution(arr))
+    # print(solution(arr))
     print(solution_with_two_pointer(arr))
