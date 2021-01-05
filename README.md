@@ -10,9 +10,9 @@
 
 ### 21년 01월
 
-|        01월         |      유형      |       난이도       |                             문제                             |                             코드                             |
-| :-----------------: | :------------: | :----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| 1주차 <br />(01-08) | 수학<br />수학 | 실버 1<br />실버 3 | [1629 - 곱셈](https://www.acmicpc.net/problem/1629)<br />[2003 - 수들의 합 2](https://www.acmicpc.net/problem/2003) | [Py](https://github.com/bky373/problem-solving/blob/master/by-python/py-boj/1629-%EA%B3%B1%EC%85%88.py)  &nbsp; [Kt](https://github.com/bky373/problem-solving/blob/master/by-kotlin/kt-boj/solutions/1629-%EA%B3%B1%EC%85%88.kt)<br /><br />[Py](https://github.com/bky373/problem-solving/blob/master/by-python/py-boj/2003-%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%202.py) &nbsp; [Kt](https://github.com/bky373/problem-solving/blob/master/by-kotlin/kt-boj/solutions/2003-%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%202.kt) |
+|            01월             |      유형      |       난이도       | &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문제 |                             코드                             |
+| :-------------------------: | :------------: | :----------------: | ------------------------------------------------------------ | :----------------------------------------------------------: |
+| 1주차 <br />(01.01 - 01.08) | 수학<br />수학 | 실버 1<br />실버 3 | [1629 - 곱셈](https://www.acmicpc.net/problem/1629)<br />[2003 - 수들의 합 2](https://www.acmicpc.net/problem/2003) | [Py](https://github.com/bky373/problem-solving/blob/master/by-python/py-boj/1629-%EA%B3%B1%EC%85%88.py)  &nbsp; [Kt](https://github.com/bky373/problem-solving/blob/master/by-kotlin/kt-boj/solutions/1629-%EA%B3%B1%EC%85%88.kt)<br> [Py](https://github.com/bky373/problem-solving/blob/master/by-python/py-boj/2003-%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%202.py) &nbsp; [Kt](https://github.com/bky373/problem-solving/blob/master/by-kotlin/kt-boj/solutions/2003-%EC%88%98%EB%93%A4%EC%9D%98%20%ED%95%A9%202.kt) |
 
 
 
