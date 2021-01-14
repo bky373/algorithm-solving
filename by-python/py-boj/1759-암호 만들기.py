@@ -11,8 +11,7 @@ def is_valid(code):
     return True
 
 
-def dfs(x, code):
-    if x < 0 or x >= c: return
+def dfs(code):
     if len(code) == l:
         if is_valid(code):
             print(''.join(code))
@@ -20,9 +19,9 @@ def dfs(x, code):
 
     for i in range(c):
         if len(code) == 0:
-            dfs(i, code + [arr[i]])
+            dfs(code + [arr[i]])
         elif code[-1] < arr[i]:
-            dfs(i, code + [arr[i]])
+            dfs(code + [arr[i]])
 
 
 # 방법 2
@@ -45,5 +44,5 @@ if __name__ == '__main__':
     arr = input().split()
     arr.sort()
 
-    # dfs(0, [])
+    # dfs([])
     second()
