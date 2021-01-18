@@ -14,6 +14,6 @@ def dp(y, x):
 if __name__ == '__main__':
     n = int(input())
     arr = [list(map(int, input().split())) for _ in range(n)]
-    memo = [[-1] * (n + 1) for _ in range(n + 1)]
+    memo = [[-1] * n for _ in range(n)]
 
     print(dp(0, 0))
