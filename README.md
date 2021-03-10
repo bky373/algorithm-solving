@@ -1,6 +1,7 @@
 # :fire: MT6W : More than 6 solutions a week :fire:
 
 ## 향후 계획
+
 진행중인 학습과 프로젝트를 어느정도 안정화시키고 새로운 챌랜지로 돌아올 예정 <br>
 그전까지는 자유 풀이로 진행한다.
 
@@ -24,9 +25,9 @@
 
 ### 21년 02월~ 자유풀이
 
-|     유형      |       난이도       | &nbsp;&nbsp;문제                                             |                           Py 풀이                            |                           Kt 풀이                            |
-| :-----------: | :----------------: | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| BFS<br />탐색 | 골드 5<br />실버 4 | [13023 - ABCDE](https://www.acmicpc.net/problem/13023)\|<br />[7587 - Anagrams](https://www.acmicpc.net/problem/7587) | [Py](https://github.com/bky373/problem-solving/blob/master/by-python/py-boj/13023-ABCDE.py)<br />[Py](https://github.com/bky373/problem-solving/blob/master/by-python/py-boj/7587-Anagrams.py) | [Kt](https://github.com/bky373/problem-solving/blob/master/by-kotlin/kt-boj/solutions/13023-ABCDE.kt) |
+|            유형             |             난이도             | &nbsp;&nbsp;문제                                             |                           Py 풀이                            |                           Kt 풀이                            |
+| :-------------------------: | :----------------------------: | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| BFS<br />탐색<br />투포인터 | 골드 5<br />실버 4<br />실버 4 | [13023 - ABCDE](https://www.acmicpc.net/problem/13023)\|<br />[7587 - Anagrams](https://www.acmicpc.net/problem/7587)<br />[3273 - 두 수의 합](https://www.acmicpc.net/problem/3273) | [Py](https://github.com/bky373/problem-solving/blob/master/by-python/py-boj/13023-ABCDE.py)<br />[Py](https://github.com/bky373/problem-solving/blob/master/by-python/py-boj/7587-Anagrams.py)<br />[Py](https://github.com/bky373/problem-solving/blob/master/by-python/py-boj/3273-%EB%91%90%20%EC%88%98%EC%9D%98%20%ED%95%A9.py) | [Kt](https://github.com/bky373/problem-solving/blob/master/by-kotlin/kt-boj/solutions/13023-ABCDE.kt)<br /><br /><br /> |
 
 
 
@@ -86,4 +87,3 @@
 - [BOJ](https://www.acmicpc.net/) --- [[Python]](https://github.com/bky373/problem-solving/tree/master/by-python/py-boj) [[Kotlin]](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-boj/solutions)
 
 - [Programmers](https://programmers.co.kr/) --- [[Python]](https://github.com/bky373/problem-solving/tree/master/by-python/py-programmers) [[Kotlin]](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-programmers/solutions)
-
