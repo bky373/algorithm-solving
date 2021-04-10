@@ -80,10 +80,15 @@
 | 4주차 | 12/20  | 12/26  |     2     |    -    |
 | 5주차 | 12/27  | 12/31  |     3     |    -    |
 
+## 문제 풀이 저장소
 
+### [BOJ](https://www.acmicpc.net/) 
 
-### 문제 풀이 저장소
+- [Python](https://github.com/bky373/problem-solving/tree/master/by-python/py-boj)
+- [Kotlin](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-boj/solutions)
+- [Java](https://github.com/bky373/problem-solving/tree/master/by-java/boj/solutions)
 
-- [BOJ](https://www.acmicpc.net/) --- [[Python]](https://github.com/bky373/problem-solving/tree/master/by-python/py-boj) [[Kotlin]](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-boj/solutions)
+### [Programmers](https://programmers.co.kr/) 
 
-- [Programmers](https://programmers.co.kr/) --- [[Python]](https://github.com/bky373/problem-solving/tree/master/by-python/py-programmers) [[Kotlin]](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-programmers/solutions)
+- [Python](https://github.com/bky373/problem-solving/tree/master/by-python/py-programmers)
+- [Kotlin](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-programmers/solutions)
