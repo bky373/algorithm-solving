@@ -92,3 +92,8 @@
 
 - [Python](https://github.com/bky373/problem-solving/tree/master/by-python/py-programmers)
 - [Kotlin](https://github.com/bky373/problem-solving/tree/master/by-kotlin/kt-programmers/solutions)
+
+### [Codility](https://app.codility.com/programmers/lessons/1-iterations/)
+
+- [Java](https://github.com/bky373/problem-solving/tree/master/by-java/codility/solutions/Lessons)
+
