@@ -2,33 +2,26 @@ package Lessons;
 
 // Lesson1: Iterations
 // Task: BinaryGap
+// 풀이 참고 : https://jobjava00.github.io/algorithm/codility/lesson1/BinaryGap/
 
 class L1_BinaryGap {
     public int solution(int N) {
-        char[] binaryNum = Integer.toBinaryString(N).toCharArray();
-
+        String binaryStr = Integer.toBinaryString(N);
+        int length = binaryStr.length();
         int maxCount = 0;
+        int count = 0;
 
-        for (int i = 0; i < binaryNum.length; ++i) {
-            int cnt = 0;
-            if (binaryNum[i] == '0') {
-                for (int j = i; j < binaryNum.length; ++j) {
-                    if (binaryNum[j] == '0' && j < binaryNum.length - 1) {
-                        cnt++;
-                    } else if (binaryNum[j] == '0' && j == binaryNum.length - 1) {
-                        cnt = 0;
-                    } else {
-                        break;
-                    }
-                }
-            }
-            maxCount = Math.max(maxCount, cnt);
+        for (int i = 0; i < length; i++) {
+            if (binaryStr.charAt(i) == '1') {
+                maxCount = Math.max(maxCount, count);
+                count = 0;
+            } else count++;
         }
         return maxCount;
     }
 
     public static void main(String[] args) {
         L1_BinaryGap s = new L1_BinaryGap();
-        System.out.println(s.solution(805306373));
+        System.out.println(s.solution(9));
     }
 }
