@@ -1,25 +1,22 @@
 package Lessons;
 
 // Lesson3: Time Complexity
-// Task: TapeEquilibrium
+// 시간 복잡도: O(N)
 
 class L3_TapeEquilibrium {
     public int solution(int[] A) {
-        int total = 0;
+        int totalSum = 0;
         for (int num : A) {
-            total += num;
+            totalSum += num;
         }
 
         int minVal = Integer.MAX_VALUE;
         int temp = 0;
         for (int i = 0; i < A.length - 1; i++) {
-            minVal = Math.min(minVal, Math.abs(total - 2 * (temp + A[i])));
+            minVal = Math.min(minVal, Math.abs(totalSum - 2 * (temp + A[i])));
             temp += A[i];
         }
-        if (minVal == Integer.MAX_VALUE) {
-            return 0;
-        }
-        return minVal;
+        return minVal == Integer.MAX_VALUE ? 0 : minVal;
     }
 
     public static void main(String[] args) {
