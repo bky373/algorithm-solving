@@ -1,28 +1,38 @@
 package Lessons;
 
 // Lesson4: Counting Elements
-// Task: MaxCounters
+// 시간 복잡도: O(N + M)
 
 import java.util.Arrays;
 
 class L4_MaxCounters {
-    public int solution(int N, int[] A) {
-        int count = 0;
-        int[] result = new int[N];
-        int num, maxVal = 0;
+    public int[] solution(int N, int[] A) {
+        int[] counters = new int[N];
+        int maxCounterVal = 0, maxVal = 0;
+        int counterIndex, counterVal;
 
-        boolean isOverN = false;
-        for (int i = 0; i < A.length; i++) {
-            num = A[i];
-            if (num == N + 1) isOverN = true;
+        for (int num : A) {
+            if (num > N) {
+                maxCounterVal = maxVal;
+            } else {
+                counterIndex = num - 1;
+                counterVal = counters[counterIndex];
 
-            if (isOverN) {
-                result[num - 1] = maxVal;
+                if (counterVal >= maxCounterVal) {
+                    counters[counterIndex]++;
+                } else {
+                    counters[num - 1] = maxCounterVal + 1;
+                }
+                maxVal = Math.max(counters[counterIndex], maxVal);
             }
-            result[num - 1]++;
-            isOverN = false;
         }
-        return count;
+
+        for (int i = 0; i < N; i++) {
+            if (counters[i] < maxCounterVal)
+                counters[i] = maxCounterVal;
+        }
+
+        return counters;
     }
 
     public static void main(String[] args) {
@@ -30,6 +40,6 @@ class L4_MaxCounters {
         int N = 5;
         int[] A = {3, 4, 4, 6, 1, 4, 4};
 
-        System.out.println(s.solution(N, A));
+        System.out.println(Arrays.toString(s.solution(N, A)));
     }
 }
