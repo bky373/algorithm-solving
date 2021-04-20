@@ -1,15 +1,11 @@
 package Lessons;
 
-// Lesson3: Time Complexity
-// Task: FrogJmp
+// 시간복잡도 : O(1)
 
 class L3_FrogJmp {
     public int solution(int X, int Y, int D) {
         int jumpCount = (Y - X) / D;
-        if ((Y - X) % D == 0) {
-            return jumpCount;
-        }
-        return jumpCount + 1;
+        return jumpCount + ((Y - X) % D == 0 ? 0 : 1);
     }
 
     public static void main(String[] args) {
