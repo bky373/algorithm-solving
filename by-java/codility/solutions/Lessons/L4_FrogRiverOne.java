@@ -1,22 +1,23 @@
 package Lessons;
 
 // Lesson4: Counting Elements
-// Task: FrogRiverOne
+// 시간 복잡도: O(N)
+// 풀이 참고: https://jobjava00.github.io/algorithm/codility/lesson4/FrogRiverOne/
 
 class L4_FrogRiverOne {
     public int solution(int X, int[] A) {
-        int sumOfOneToX = X * (X + 1) / 2;
-        int num, sum = 0;
-        int[] fallen = new int[X + 1];
+        int[] leaves = new int[X + 1];
+        int fallenPosition, sum = 0;
+        int sumToX = X * (X + 1) / 2;
 
         for (int i = 0; i < A.length; i++) {
-            num = A[i];
-            if (fallen[num] == 0) {
-                fallen[num] = 1;
-                sum += num;
+            fallenPosition = A[i];
+            if (leaves[fallenPosition] == 0) {
+                leaves[fallenPosition] = 1;
+                sum += fallenPosition;
             }
 
-            if (sum == sumOfOneToX) return i;
+            if (sum == sumToX) return i;
         }
         return -1;
     }
