@@ -2,34 +2,38 @@ package Lessons;
 
 // Lesson2: Arrays
 // Task: OddOccurrencesInArray
+// 풀이 참고 : https://hojak99.tistory.com/314
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 class L2_OddOccurrencesInArray {
+    // 1. XOR 비트 연산자를 활용
     public int solution(int[] A) {
-        Map<Integer, Integer> numMap = new HashMap<>();
+        int temp = 0;
         for (int num : A) {
-            if (numMap.containsKey(num)) {
-                int cnt = numMap.get(num);
-                numMap.put(num, ++cnt);
-            } else {
-                numMap.put(num, 1);
-            }
+            temp = temp ^ num;
         }
-
-        for (Map.Entry<Integer, Integer> element : numMap.entrySet()) {
-            if (element.getValue() % 2 == 1) {
-                return element.getKey();
-            }
-        }
-        return 0;
+        return temp;
     }
+
+    // 2. HashSet 활용
+    public int solutionWithSet(int[] A) {
+        Set<Integer> numSet = new HashSet<>();
+        for (int num : A) {
+            if (numSet.contains(num)) {
+                numSet.remove(num);
+            } else numSet.add(num);
+        }
+        return numSet.iterator().next();
+    }
+
 
     public static void main(String[] args) {
         L2_OddOccurrencesInArray s = new L2_OddOccurrencesInArray();
         int[] A = {9, 3, 9, 3, 9, 7, 9};
 
         System.out.println(s.solution(A));
+        System.out.println(s.solutionWithSet(A));
     }
 }
