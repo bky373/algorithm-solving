@@ -1,21 +1,19 @@
 package Lessons;
 
 // Lesson4: Counting Elements
-// Task: L4_PermCheck
+// 시간 복잡도: O(N)
 
 class L4_PermCheck {
     public int solution(int[] A) {
-        boolean[] checked = new boolean[A.length + 1];
-        int num;
+        int lengthOfA = A.length;
+        boolean[] existed = new boolean[lengthOfA + 1];
+        for (int num : A)
+            if (num < existed.length)
+                existed[num] = true;
 
-        for (int i = 0; i < A.length; i++) {
-            num = A[i];
-            if (num < checked.length) checked[num] = true;
-        }
-
-        for (int i = 1; i < checked.length; i++)
-            if (!checked[i]) return 0;
-
+        for (int i = 1; i < existed.length; i++)
+            if (!existed[i])
+                return 0;
         return 1;
     }
 
