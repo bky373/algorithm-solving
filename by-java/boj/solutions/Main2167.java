@@ -1,6 +1,10 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
+// 시간 복잡도:
+//  DP 그리기: O(N * M)
+//  정답 찾기: O(1)
+
 public class Main2167 {
     private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
