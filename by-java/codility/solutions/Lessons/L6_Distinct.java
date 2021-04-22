@@ -1,25 +1,26 @@
 package Lessons;
 
 // Lesson6: Sorting
-// Task: Distinct
+// 시간 복잡도: O(NlogN)
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Arrays;
 
 class L6_Distinct {
     public int solution(int[] A) {
-        Map<Integer, Integer> numToCount = new HashMap<>();
-
-        for (int key : A) {
-            numToCount.put(key, numToCount.getOrDefault(key, 0) + 1);
+        Arrays.sort(A);
+        int len = A.length;
+        int distinctCount = len == 0 ? 0 : 1;
+        for (int i = 0; i < len - 1; i++) {
+            if (A[i] != A[i + 1])
+                distinctCount++;
         }
 
-        return numToCount.keySet().size();
+        return distinctCount;
     }
 
     public static void main(String[] args) {
         L6_Distinct s = new L6_Distinct();
-        int[] A = {2, 1, 1, 2, 3, 1};
+        int[] A = {2, 1, 1, 2, 3, 1, 4};
         System.out.println(s.solution(A));
     }
 }
