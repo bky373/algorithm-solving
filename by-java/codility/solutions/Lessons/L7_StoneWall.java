@@ -25,17 +25,38 @@ class L7_StoneWall {
         return blockCount;
     }
 
+    // 스택 활용
+    public int solution2(int[] H) {
+        Stack<Integer> baseHeights = new Stack<>();
+
+        int blockCount = 0;
+        int height;
+        for (int i = 0; i < H.length; i++) {
+            height = H[i];
+            if (baseHeights.isEmpty() || baseHeights.peek() < height) {
+                blockCount++;
+                baseHeights.push(height);
+            } else if (baseHeights.peek() > height) {
+                baseHeights.pop();
+                i--;
+            }
+        }
+
+        return blockCount;
+    }
+
     public static void main(String[] args) {
         L7_StoneWall s = new L7_StoneWall();
         int[] H = {8, 8, 5, 7, 9, 8, 7, 4, 8};
         System.out.println(s.solution(H));
+        System.out.println(s.solution2(H));
     }
 }
 
 
 // 문제: 돌담을 쌓는 데 필요한 최소 블럭 구하기
 // 방법: 스택을 활용
-// 접근:
+// 접근: solution 매소드 참고
 //      기준이 되는 어떤 높이가 있고, 이 기준 높이와 다른 높이가 있을 때 블록이 하나 생성된다.
 //      따라서 블록을 구분짓기 위해 기준 높이로 삼을 돌(베이스 돌)이 필요하다.
 //      1. 베이스 돌이 없을 경우, 현재 높이를 베이스로 해야하므로 스택(베이스 돌 목록)에 푸시한다.
