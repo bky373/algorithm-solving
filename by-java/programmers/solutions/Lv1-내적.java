@@ -1,4 +1,4 @@
-class Solution {
+class SolutionLv1내적 {
     public int solution(int[] a, int[] b) {
         int answer = 0;
         

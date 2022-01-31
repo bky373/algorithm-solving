@@ -1,4 +1,4 @@
-class Solution {
+class SolutionLv1음영더하기 {
     public int solution(int[] absolutes, boolean[] signs) {
         int answer = 0;
         
